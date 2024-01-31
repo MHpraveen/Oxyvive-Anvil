@@ -56,6 +56,9 @@ db_schema:
     - name: user_id
       admin_ui: {width: 200}
       type: number
+    - name: test1
+      admin_ui: {width: 200}
+      type: bool
     title: book_slot
   hospital_register_form:
     client: none
