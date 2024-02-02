@@ -7,7 +7,7 @@ import base64
 
 @anvil.server.callable
 def user(id,username,email,password,phone,pincode):
-  app_tables.bookslot.add_row(id=id, username=username, email=email, password=password,phone=phone,pincode=pincode)
+  app_tables.users.add_row(id=id, username=username, email=email, password=password,phone=phone,pincode=pincode)
   
 @anvil.server.callable
 def BookSlot(slot_id, user_id, username,book_date,book_time):
