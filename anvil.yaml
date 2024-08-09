@@ -411,4 +411,7 @@ db_schema:
     - name: oxi_notification
       admin_ui: {width: 200}
       type: string
+    - name: oxi_timestamp
+      admin_ui: {width: 200, order: 3}
+      type: datetime
 uplink_visible: true
