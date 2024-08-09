@@ -394,6 +394,9 @@ db_schema:
     - name: oxi_another_person_number
       admin_ui: {width: 200, order: 17}
       type: number
+    - name: Report
+      admin_ui: {width: 200, order: 18}
+      type: media
   oxi_notifications:
     title: oxi_notifications
     client: none
